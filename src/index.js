@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './tailwind.css'
 import './style/style.scss';
 
+import Home from './layout/home'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
-      <h1>Hello there</h1>
+      <Home />
     </div>
   </React.StrictMode>
 );
