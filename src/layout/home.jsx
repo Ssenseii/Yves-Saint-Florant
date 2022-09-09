@@ -1,6 +1,6 @@
 import React from 'react'
 import Showcase from '../components/Home/showcase'
-import Hero from '../components/Home/hero'
+import Hero from '../components/Home/hero/hero'
 
 
 const Home = () => {
@@ -8,7 +8,6 @@ const Home = () => {
     <div className='home'>
       <Showcase></Showcase>
       <Hero></Hero>
-      <Showcase></Showcase>
     </div>
   )
 }

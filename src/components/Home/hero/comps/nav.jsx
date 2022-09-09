@@ -14,7 +14,7 @@ const Nav = () => {
   const [Fix, setFix] = useState(false)
 
   function setFixed(){
-    if (window.scrollY >= 810){
+    if (window.scrollY >= 850){
       setFix(true)
     }
     else{
