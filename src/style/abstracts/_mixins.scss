@@ -1,5 +1,23 @@
-@mixin Center{
+@mixin Center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+
+/// The fast Mixins 
+
+
+@mixin FastLogo {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+@mixin FastNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 }
