@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Tag from "./tags";
 
 import {
@@ -7,9 +7,25 @@ import {
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
 
+
+
 const Nav = () => {
+  
+  const [Fix, setFix] = useState(false)
+
+  function setFixed(){
+    if (window.scrollY >= 810){
+      setFix(true)
+    }
+    else{
+      setFix(false);
+    }
+  }
+
+  window.addEventListener("scroll", setFixed)
+
   return (
-    <nav className="nav">
+    <nav id="nav" className={Fix ? 'nav fixed' : 'nav'}>
       <div className="nav__logo">
         <h1>Dravida</h1>
       </div>
