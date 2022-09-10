@@ -1,0 +1,22 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 8rem;
+  width: 100%;
+  height: auto;
+
+  padding: 4rem;
+
+  &__element{
+    border: 1px solid #000;
+    width: 24rem;
+    height: 30rem;
+
+    overflow: hidden;
+
+    
+    img{
+      object-fit: none;
+    }
+  }
+}
