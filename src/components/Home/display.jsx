@@ -22,6 +22,30 @@ const Display = () => {
         <div className="grid__element">
           <img src={images.p4} alt="" />
         </div>
+        <div className="grid__element">
+          <img src={images.p1} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p2} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p3} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p4} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p1} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p2} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p3} alt="" />
+        </div>
+        <div className="grid__element">
+          <img src={images.p4} alt="" />
+        </div>
       </div>
     </div>
   )
